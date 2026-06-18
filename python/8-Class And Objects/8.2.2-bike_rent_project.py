@@ -1,10 +1,11 @@
-
+#Bike rental project
 class Bikeshop:
     def __init__(self, stock):  # fixed typo
         self.stock = stock
 
     def displayBike(self):
         print("We have", self.stock, "bikes in stock")
+        print("one bike is rented for 500 rupes per day")
 
     def rentforBike(self, q):
         if q <= 0:
@@ -32,6 +33,8 @@ while True:
     elif input1 == 2:
         q = int(input("Enter the number of bikes you want to rent: "))
         shop.rentforBike(q)
+        Rs = q * 500
+        print("You have to pay", Rs, "rupes for renting", q, "bikes and 2000 rupes as security deposit and you will get it back when you return the bikes")
     elif input1 == 3:
         q = int(input("Enter the number of bikes you want to return: "))
         shop.returnBike(q)
