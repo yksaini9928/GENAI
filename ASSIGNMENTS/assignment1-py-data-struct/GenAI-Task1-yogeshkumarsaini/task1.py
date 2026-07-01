@@ -1,6 +1,7 @@
 
 # Task 1: Product Collections
 
+
 # 1. Create a list with at least 6 product names
 products = [
     "Laptop",
