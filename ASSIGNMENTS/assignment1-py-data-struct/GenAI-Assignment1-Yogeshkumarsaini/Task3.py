@@ -1,27 +1,6 @@
 
 # Task 3: Product Pricing (Dictionaries)
 
-
-# Product list
-products = [
-    "Laptop",
-    "Smartphone",
-    "Headphones",
-    "Keyboard",
-    "Mouse",
-    "Monitor"
-]
-
-# Categories list
-categories = [
-    "Electronics",
-    "Electronics",
-    "Accessories",
-    "Accessories",
-    "Accessories",
-    "Electronics"
-]
-
 # Price dictionary
 price_dict = {
     "Laptop": 75000,
